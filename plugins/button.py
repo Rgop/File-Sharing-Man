@@ -10,8 +10,8 @@ def start_button(client):
     if not FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="⛩ ᴀɴɪᴍᴇ sᴇʀɪᴇs ⛩", url=f"https://t.me/Anime_Series_in_Hindi_Dubbed"),
-                InlineKeyboardButton(text="⛩ ᴀɴɪᴍᴇ ᴍᴏᴠɪᴇs ⛩", url=f"https://t.me/Dub_Anime_Movies_in_Hindi"),
+                InlineKeyboardButton(text="⛩ ᴄʜᴀɴɴᴇʟ ⛩", callback_data="help"),
+                InlineKeyboardButton(text="ᴄʟᴏsᴇ ❌", callback_data="close"),
             ],
         ]
         return buttons
@@ -21,8 +21,8 @@ def start_button(client):
                 InlineKeyboardButton(text="ɢʀᴏᴜᴘ", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton(text="⛩ ᴀɴɪᴍᴇ ᴍᴏᴠɪᴇs ⛩", url=f"https://t.me/Dub_Anime_Movies_in_Hindi"),
-                InlineKeyboardButton(text="⛩ ᴀɴɪᴍᴇ sᴇʀɪᴇs ⛩", url=f"https://t.me/Anime_Series_in_Hindi_Dubbed"),
+                InlineKeyboardButton(text="⛩ ᴄʜᴀɴɴᴇʟ ⛩", callback_data="help"),
+                InlineKeyboardButton(text="ᴄʟᴏsᴇ ❌", callback_data="close"),
             ],
         ]
         return buttons
@@ -32,8 +32,8 @@ def start_button(client):
                 InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
             ],
             [
-                InlineKeyboardButton(text="⛩ ᴀɴɪᴍᴇ sᴇʀɪᴇs ⛩", url=f"https://t.me/Anime_Series_in_Hindi_Dubbed"),
-                InlineKeyboardButton(text="⛩ ᴀɴɪᴍᴇ ᴍᴏᴠɪᴇs ⛩", url=f"https://t.me/Dub_Anime_Movies_in_Hindi"),
+                InlineKeyboardButton(text="⛩ ᴄʜᴀɴɴᴇʟ ⛩", callback_data="help"),
+                InlineKeyboardButton(text="ᴄʟᴏsᴇ ❌", callback_data="close"),
             ],
         ]
         return buttons
@@ -43,8 +43,8 @@ def start_button(client):
                 InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
             ],
             [
-                InlineKeyboardButton(text="⛩ ᴀɴɪᴍᴇ sᴇʀɪᴇs ⛩", url=f"https://t.me/Anime_Series_in_Hindi_Dubbed"),
-                InlineKeyboardButton(text="⛩ ᴀɴɪᴍᴇ ᴍᴏᴠɪᴇs ⛩", url=f"https://t.me/Dub_Anime_Movies_in_Hindi"),
+                InlineKeyboardButton(text="⛩ ᴄʜᴀɴɴᴇʟ ⛩", callback_data="help"),
+                InlineKeyboardButton(text="ᴄʟᴏsᴇ ❌", callback_data="close"),
             ],
             [InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="close")],
         ]
