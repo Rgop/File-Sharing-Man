@@ -6,24 +6,15 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     HELP = """
-<b> ❏ Perintah untuk Pengguna BOT
- ├ /start - Mulai Bot
- ├ /about - Tentang Bot ini
- ├ /help - Bantuan Perintah Bot ini
- ├ /ping - Untuk mengecek bot hidup
- └ /uptime - Untuk melihat status bot 
- 👨‍💻 Develoved by </b><a href='https://t.me/Lunatic0de/101'>@Lunatic0de</a>
- ❏ Perintah Untuk Admin BOT
- ├ /logs - Untuk melihat logs bot
- ├ /setvar - Untuk mengatur var dengan command dibot
- ├ /delvar - Untuk menghapus var dengan command dibot
- ├ /getvar - Untuk melihat salah satu var dengan command dibot
- ├ /users - Untuk melihat statistik pengguna bot
- ├ /batch - Untuk membuat link lebih dari satu file
- ├ /speedtest - Untuk Mengetes kecepatan server bot
- └ /broadcast - Untuk mengirim pesan broadcast ke pengguna bot
+⚜ Anime in Hindi </b><a href='https://t.me/Dub_Anime_in_Hindi'>Join</a>
 
-👨‍💻 Develoved by </b><a href='https://t.me/Lunatic0de/101'>@Lunatic0de</a>
+⚜ Anime Series Hindi </b><a href='https://t.me/Anime_Series_in_Hindi_Dubbed'>Join</a>
+
+⚜ Anime Movies Hindi </b><a href='https://t.me/Dub_Anime_Movies_in_Hindi'>Join</a>
+
+⚜ Crunchyroll Anime Hindi </b><a href='https://t.me/Crunchyroll_Anime_Hindi_Official'>Join</a>
+
+🙋 Any Problem </b><a href='https://t.me/RG_Anime_Group'>HERE</a>
 """
 
     close = [
