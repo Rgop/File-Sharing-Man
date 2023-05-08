@@ -12,7 +12,7 @@ class Data:
  ├ /help - Bantuan Perintah Bot ini
  ├ /ping - Untuk mengecek bot hidup
  └ /uptime - Untuk melihat status bot 
- 
+👨‍💻 Develoved by </b><a href='https://t.me/Lunatic0de/101'>@Lunatic0de</a>
  ❏ Perintah Untuk Admin BOT
  ├ /logs - Untuk melihat logs bot
  ├ /setvar - Untuk mengatur var dengan command dibot
