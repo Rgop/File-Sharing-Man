@@ -6,7 +6,25 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     HELP = """
-text = f"<b>○ 👑 Creator : <a href='tg://user?id={OWNER_ID}'>RG</a>\n○ ⚜ Anime in Hindi: <a href='https://t.me/Dub_Anime_in_Hindi'>Join</a>\n○ ⚜ Anime Series: <a href='https://t.me/Anime_Series_in_Hindi_Dubbed'>Join</a>\n○ ⚜ Anime Movies: <a href='https://t.me/Dub_Anime_Movies_in_Hindi'>Join</a>\n○ ⚜ Hindi Official: <a href='https://t.me/Crunchyroll_Anime_Hindi_Official'>Join</a>\n○ ⚜ Any Problem: @RG_Anime_Group</b>",
+<b> ❏ Perintah untuk Pengguna BOT
+ ├ /start - Mulai Bot
+ ├ /about - Tentang Bot ini
+ ├ /help - Bantuan Perintah Bot ini
+ ├ /ping - Untuk mengecek bot hidup
+ └ /uptime - Untuk melihat status bot 
+ 
+ ❏ Perintah Untuk Admin BOT
+ ├ /logs - Untuk melihat logs bot
+ ├ /setvar - Untuk mengatur var dengan command dibot
+ ├ /delvar - Untuk menghapus var dengan command dibot
+ ├ /getvar - Untuk melihat salah satu var dengan command dibot
+ ├ /users - Untuk melihat statistik pengguna bot
+ ├ /batch - Untuk membuat link lebih dari satu file
+ ├ /speedtest - Untuk Mengetes kecepatan server bot
+ └ /broadcast - Untuk mengirim pesan broadcast ke pengguna bot
+
+👨‍💻 Develoved by </b><a href='https://t.me/Lunatic0de/101'>@Lunatic0de</a>
+"""
 
     close = [
         [InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")]
